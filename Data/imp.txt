@@ -1,0 +1,52 @@
+ 
+TABLE A	TABLE B
+1	1
+1	1
+1	2
+2	2
+2	3
+3	4
+NULL	NULL
+What is the Count of records for Union, Union all, Intersect, Inner join, Left Join, Right Join, Full Join and Cross Join?
+ 
+ union:
+5
+union all:
+7
+intersect:
+2
+innerjoin:
+8
+left:
+10
+right:
+7
+full:
+14
+cross:
+49
+
+ 
+WAFWCAQdx
+insert into target 
+select date_col('mm/dd/yyyy')  from source 
+
+ 
+EMAIL
+Kesavan.M@grt.com
+ 
+ select 
+substring(EMAIL,1,charindex(email,'.'))-1 as firstname,
+substring(EMAIL,len(charindex(email,'.')+1 as Secondname,
+substring(EMAIL,len(charindex(email,'@')+1) as Domain 
+from Table
+ 
+
+
+
+
+
+
+
+
+

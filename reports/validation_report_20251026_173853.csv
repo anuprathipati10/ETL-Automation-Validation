@@ -1,0 +1,4 @@
+id,name_src,salary_src,expected_name,expected_salary,name_tgt,salary_tgt,name_match,salary_match,overall_result
+1,John,50000,JOHN,55000.00000000001,JOHN,55000.0,True,True,PASS
+2,Mary,60000,MARY,66000.0,MARY,66000.0,True,True,PASS
+3,Alex,55000,ALEX,60500.00000000001,ALEX,60500.0,True,True,PASS
